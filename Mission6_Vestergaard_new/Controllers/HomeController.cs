@@ -6,19 +6,34 @@ namespace Mission6_Vestergaard_new.Controllers;
 
 public class HomeController : Controller
 {
+    private MovieCollectionContext _context;
+    
+    public HomeController(MovieCollectionContext temp) //Constructor
+    {
+        _context = temp;
+    }
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult About()
+    {
+        return View(); 
+    }
+    
+    [HttpGet]
+    public IActionResult Form()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [HttpPost]
+    public IActionResult Form(Application response)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        _context.Applications.Add(response); //Add record to the database
+        _context.SaveChanges();
+        
+        return View("Confirmation");
     }
 }
