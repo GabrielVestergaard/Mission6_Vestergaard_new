@@ -34,8 +34,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gabrielvestergaard/RiderProjects/Mission6_Vestergaard_new/Mission6_Vestergaard_new/Views/Home/Collection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db2xsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gabrielvestergaard/RiderProjects/Mission6_Vestergaard_new/Mission6_Vestergaard_new/Views/Home/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gabrielvestergaard/RiderProjects/Mission6_Vestergaard_new/Mission6_Vestergaard_new/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gabrielvestergaard/RiderProjects/Mission6_Vestergaard_new/Mission6_Vestergaard_new/Views/Home/Form.cshtml]
